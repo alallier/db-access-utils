@@ -1,0 +1,36 @@
+{
+  "name": "db-access-utils",
+  "description": "Utility library that implements database abstractions for configuration, connection management, and data access",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Aaron Hung",
+    "url": "https://github.com/Hunga1"
+  },
+  "contributors": [
+    {
+      "name": "Alexander Lallier",
+      "url": "https://github.com/alallier"
+    },
+    {
+      "name": "Benjamin Lannon",
+      "url": "https://github.com/lannonbr"
+    }
+  ],
+  "main": "index.js",
+  "type": "commonjs",
+  "exports": {
+    "require": "./index.js",
+    "import": "./esm/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alallier/db-access-utils.git"
+  },
+  "peerDependencies": {
+    "pg": "^8.11.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

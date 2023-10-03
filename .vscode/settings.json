@@ -1,0 +1,9 @@
+{
+  "search.exclude": {
+    "**/node_modules": true
+  },
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true
+}
